@@ -124,12 +124,9 @@ h5 {
 
 h1 {
   margin-top: 0;
-  font-size: clamp(var(--size-900), 5vw, 4rem);
+  font-size: var(--size-800)
 }
 
-h1.title {
-  margin-top: var(--size-800);
-}
 
 h2 {
   font-size: var(--size-700);
@@ -166,7 +163,7 @@ body {
 }
 
 .header-bg {
-  background-image: url(./img/bg.svg);
+  background-image: url(./img/skyline.svg);
   background-size: cover;
   background-position: center;
 }
@@ -471,10 +468,6 @@ nav li a.active {
   font-weight: 700;
 }
 
-header {
-  position: relative;
-}
-
 .header {
   margin: 0 auto;
   max-width: 70rem;
@@ -528,6 +521,10 @@ header {
   border-bottom: .5rem solid var(--green-default);
   height: 100%;
 
+}
+
+.focus img {
+width: 100%;
 }
 
 .focus p {
