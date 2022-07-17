@@ -1,83 +1,152 @@
 ---
-layout: layouts/with-header.njk
+layout: layouts/layout.njk
 title: McKinney Family Foundation
 description: "One to two sentence mission statement goes here."
 ---
 
-<section class="bg-grey">
-  <div class="container flow">
-    <h2>Focus Areas</h2>
-    <div class="sponsors">
-      <article class="focus">
-        <h3>What we do</h3>
-        <p>Short blurb describing area of focus</p>
-      </article>
-      <article class="focus">
-        <h3>How we work</h3>
-        <p>Short blurb describing area of focus</p>
-      </article>
-      <article class="focus">
-        <h3>What we're learning</h3>
-      </a>
-      <p>Short blurb describing area of focus</p>
+{% include 'partials/hero.njk' %}
+{% include 'partials/news-container.njk' %} <hr class="vf-divider">
+<div class="vf-section-header">
+  <h2 class="vf-section-header__heading" id="additional">
+    Some additional things you might like</h2>
+</div>
+<div class="vf-grid vf-grid__col-3 vf-card-container">
+  <article class="vf-card vf-card--brand vf-card--striped">
+    <img
+      src="https://acxngcvroo.cloudimg.io/v7/https://www.embl.org/files/wp-content/uploads/2020/04/SCHOOLS_1011_ells-learninglab_hd_01_Cool_500px.jpg"
+      alt="Image alt text"
+      class="vf-card__image"
+      loading="lazy">
+    <div class="vf-card__content | vf-stack vf-stack--400">
+      <h3 class="vf-card__heading">A Striped Card Heading</h3>
+      <p class="vf-card__subheading">With sub–heading</p>
+      <p class="vf-card__text">Lorem ipsum dolor sit amet, consectetur. Sapiente harum, omnis provident saepe aut eius aliquam
+        sequi fugit incidunt reiciendis, mollitia quos?</p>
+    </div>
+  </article>
+  <article class="vf-card vf-card--brand vf-card--striped">
+    <img
+      src="https://acxngcvroo.cloudimg.io/v7/https://www.embl.org/files/wp-content/uploads/2020/04/SCHOOLS_1011_ells-learninglab_hd_01_Cool_500px.jpg"
+      alt="Image alt text"
+      class="vf-card__image"
+      loading="lazy">
+    <div class="vf-card__content | vf-stack vf-stack--400">
+      <h3 class="vf-card__heading">A Striped Card Heading</h3>
+      <p class="vf-card__subheading">With sub–heading</p>
+      <p class="vf-card__text">Lorem ipsum dolor sit amet, consectetur. Sapiente harum, omnis provident saepe aut eius aliquam
+        sequi fugit incidunt reiciendis, mollitia quos?</p>
+    </div>
+  </article>
+  <article class="vf-card vf-card--brand vf-card--striped">
+    <img
+      src="https://acxngcvroo.cloudimg.io/v7/https://www.embl.org/files/wp-content/uploads/2020/04/SCHOOLS_1011_ells-learninglab_hd_01_Cool_500px.jpg"
+      alt="Image alt text"
+      class="vf-card__image"
+      loading="lazy">
+    <div class="vf-card__content | vf-stack vf-stack--400">
+      <h3 class="vf-card__heading">A Striped Card Heading</h3>
+      <p class="vf-card__subheading">With sub–heading</p>
+      <p class="vf-card__text">Lorem ipsum dolor sit amet, consectetur. Sapiente harum, omnis provident saepe aut eius aliquam
+        sequi fugit incidunt reiciendis, mollitia quos?</p>
+    </div>
+  </article>
+</div>
+<section
+  class="vf-card-container vf-card-container__col-3 | vf-u-background-color--grey--lightest vf-u-fullbleed"
+  style="--vf-card__image--aspect-ratio: 16 / 9;">
+  <div class="vf-card-container__inner">
+    <div class="vf-section-header">
+      <h2 class="vf-section-header__heading vf-section-header__heading--is-link">
+        <a href="JavaScript:Void(0);">Missions</a>
+        <svg
+          aria-hidden="true"
+          class="vf-section-header__icon | vf-icon vf-icon-arrow--inline-end"
+          width="1em"
+          height="1em"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12S18.627 0 12 0C5.376.008.008 5.376 0 12zm13.707-5.209l4.5 4.5a1 1 0 010
+              1.414l-4.5 4.5a1 1 0 01-1.414-1.414l2.366-2.367a.25.25 0 00-.177-.424H6a1 1 0 010-2h8.482a.25.25 0
+              00.177-.427l-2.366-2.368a1 1 0 011.414-1.414z"
+            fill=""
+            fill-rule="nonzero"></path>
+        </svg>
+      </h2>
+      <p class="vf-section-header__text">To promote molecular biology across Europe</p>
+      <p class="vf-section-header__text">To create a centre of excellence for Europe's leading young molecular biologists</p>
+    </div>
+    <article class="vf-card vf-card--brand vf-card--bordered">
+      <img src="../../assets/vf-card/assets/vf-card-example.png" alt="" class="vf-card__image" loading="lazy">
+      <div class="vf-card__content | vf-stack vf-stack--400">
+        <h3 class="vf-card__heading">
+          <a class="vf-card__link" href="JavaScript:Void(0);">One card
+            <svg
+              aria-hidden="true"
+              class="vf-card__heading__icon | vf-icon vf-icon-arrow--inline-end"
+              width="1em"
+              height="1em"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12S18.627 0 12 0C5.376.008.008 5.376 0 12zm13.707-5.209l4.5 4.5a1 1 0 010
+                  1.414l-4.5 4.5a1 1 0 01-1.414-1.414l2.366-2.367a.25.25 0 00-.177-.424H6a1 1 0 010-2h8.482a.25.25 0
+                  00.177-.427l-2.366-2.368a1 1 0 011.414-1.414z"
+                fill="currentColor"
+                fill-rule="nonzero"></path>
+            </svg>
+          </a>
+        </h3>
+        <p class="vf-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe
+          aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos? Sapiente harum, omnis provident saepe aut eius aliquam
+          sequi fugit incidunt reiciendis, mollitia quos?</p>
+      </div>
+    </article>
+    <article class="vf-card vf-card--brand vf-card--bordered">
+      <img src="../../assets/vf-card/assets/vf-card-example.png" alt="" class="vf-card__image" loading="lazy">
+      <div class="vf-card__content | vf-stack vf-stack--400">
+        <h3 class="vf-card__heading">
+          <a class="vf-card__link" href="JavaScript:Void(0);">A card here
+            <svg
+              aria-hidden="true"
+              class="vf-card__heading__icon | vf-icon vf-icon-arrow--inline-end"
+              width="1em"
+              height="1em"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12S18.627 0 12 0C5.376.008.008 5.376 0 12zm13.707-5.209l4.5 4.5a1 1 0 010
+                  1.414l-4.5 4.5a1 1 0 01-1.414-1.414l2.366-2.367a.25.25 0 00-.177-.424H6a1 1 0 010-2h8.482a.25.25 0
+                  00.177-.427l-2.366-2.368a1 1 0 011.414-1.414z"
+                fill="currentColor"
+                fill-rule="nonzero"></path>
+            </svg>
+          </a>
+        </h3>
+        <p class="vf-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+    </article>
+    <article class="vf-card vf-card--brand vf-card--bordered">
+      <img src="../../assets/vf-card/assets/vf-card-example.png" alt="" class="vf-card__image" loading="lazy">
+      <div class="vf-card__content | vf-stack vf-stack--400">
+        <h3 class="vf-card__heading">
+          <a class="vf-card__link" href="JavaScript:Void(0);">Another card
+            <svg
+              aria-hidden="true"
+              class="vf-card__heading__icon | vf-icon vf-icon-arrow--inline-end"
+              width="1em"
+              height="1em"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12S18.627 0 12 0C5.376.008.008 5.376 0 12zm13.707-5.209l4.5 4.5a1 1 0 010
+                  1.414l-4.5 4.5a1 1 0 01-1.414-1.414l2.366-2.367a.25.25 0 00-.177-.424H6a1 1 0 010-2h8.482a.25.25 0
+                  00.177-.427l-2.366-2.368a1 1 0 011.414-1.414z"
+                fill="currentColor"
+                fill-rule="nonzero"></path>
+            </svg>
+          </a>
+        </h3>
+        <p class="vf-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente harum, omnis provident saepe
+          aut eius aliquam sequi fugit incidunt reiciendis, mollitia quos?</p>
+      </div>
     </article>
   </div>
 </section>
-<section class="container flow">
-  <h2>Affiliations</h2>
-  <p>Learn more about our alliances</p>
-  <div class="grantees">
-    <article class="grantee">
-      <img src="img/affiliations/ios.png" alt="Grantee"/>
-    </article>
-    <article class="grantee">
-      <a href="/">
-        <img src="img/affiliations/ega.png" alt="Grantee"/>
-      </a>
-    </article>
-    <article class="grantee">
-      <a href="/">
-        <img src="img/affiliations/ipa.png" alt="Grantee"/>
-      </a>
-    </article>
-    <article class="grantee">
-      <a href="/">
-        <img src="img/affiliations/cefg.png" alt="Grantee"/>
-      </a>
-    </article>
-  </div>
-</section>
-<hr class="container divider"></>
-<section class="container flow">
-  <h2>Grantees</h2>
-  <p>Learn about our funding guidelines here</p>
-  <div class="grantees">
-    <article class="grantee">
-      <a href="/">
-        <img src="img/affiliations/ios.png" alt="Grantee"/>
-      </a>
-    </article>
-    <article class="grantee">
-      <a href="/">
-        <img src="img/affiliations/ios.png" alt="Grantee"/>
-      </a>
-    </article>
-    <article class="grantee">
-      <a href="/">
-        <img src="img/affiliations/ios.png" alt="Grantee"/>
-      </a>
-    </article>
-    <article class="grantee">
-      <a href="/">
-        <img src="img/affiliations/ios.png" alt="Grantee"/>
-      </a>
-    </article>
-  </div>
-</section>
-{# {% include 'how-register.njk' %} #}
-{# <section class="container flow">
-                <h2>Staff</h2>
-                {% for person in organizers %}
-                  {% include 'person.njk' %}
-                {% endfor %}
-              </section> #}
+</body>
